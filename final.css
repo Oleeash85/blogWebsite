@@ -1,0 +1,132 @@
+@media screen and (min-width: 769px) {
+    * {
+        box-sizing: border-box;
+    }
+    ul {
+        list-style-type: none;
+    }
+    .container {
+        display: grid;
+        row-gap: 4px;
+        grid-template-columns: max-content max-content max-content 200px;
+        grid-template-rows: max-content max-content max-content max-content;
+        grid-template-areas: 'header header header header''features features features blogHome''content content content blogHome''Footer Footer Footer Footer';
+    }
+    .pix {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 4px;
+        row-gap: 10px;
+        column-gap: 4px;
+    }
+    .header {
+        grid-area: header;
+        color: whitesmoke;
+    }
+    h1 {
+        display: flex;
+        justify-content: safe;
+        color: whitesmoke;
+        background-color: gray;
+        margin-bottom: 1px;
+        margin-top: 1px;
+        margin-right: 1px;
+    }
+    h2 {
+        color: whitesmoke;
+        justify-content: space-evenly;
+        margin-top: 4px;
+    }
+    h4 {
+        display: flow-root;
+        text-align: center;
+    }
+    ul {
+        color: whitesmoke;
+        list-style: none;
+        display: flex;
+        background-color: mediumaquamarine;
+        margin-bottom: 4px;
+    }
+    .feature {
+        grid-area: features;
+        display: flex;
+        color: whitesmoke;
+        background-color: mediumaquamarine;
+        flex: 100%;
+        direction: row;
+        max-width: auto;
+        padding: 0 4px;
+        row-gap: 2px;
+    }
+    img1 {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        height: 25%;
+    }
+    img2 {
+        width: 600PX;
+        height: 300px;
+        text-align: center;
+    }
+    img3 {
+        display: flex;
+        flex-direction: row;
+        width: 25%;
+        height: 10%;
+    }
+    .blogHomeM {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 4px;
+        row-gap: 10px;
+        column-gap: 4px;
+    }
+    .blogHome {
+        grid-area: blogHome;
+        display: grid;
+        direction: column;
+        color: white;
+        background-color: gray;
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+    .content {
+        grid-area: content;
+        background-color: mediumaquamarine;
+        color: whitesmoke;
+        row-gap: 2px;
+    }
+    .footer {
+        grid-area: footer;
+        grid-row: auto;
+        background-color: gray;
+        color: blanchedalmond;
+        margin-top: 2px;
+        row-gap: 2px;
+    }
+    .SocialMediaLinks {
+        background-color: mediumpurple;
+        text-align: left;
+        color: whitesmoke;
+    }
+    .MyInfo {
+        background-color: mediumpurple;
+        text-size-adjust: AUTO;
+        color: whitesmoke;
+        margin-left: 10px;
+        padding-left: 12px;
+        text-align: center;
+    }
+    .socies {
+        display: flex;
+        text-align: end;
+        color: whitesmoke;
+    }
+    h2 {
+        color: mediumblue;
+    }
+}

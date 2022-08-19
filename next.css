@@ -1,0 +1,104 @@
+@media screen and (max-width: 768px) and (min-width:413px) {
+    * {
+        box-sizing: border-box;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: max-content max-content max-content max-content;
+        grid-template-rows: max-content 50px max-content 10px;
+        grid-template-areas: 'header header header header''features features features blogHomede''content content content blogHome''footer footer footer footer';
+    }
+    .pix {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    .header {
+        grid-area: header;
+        row-gap: 25px;
+    }
+    .feature {
+        display: grid;
+        grid-area: features;
+        color: navy;
+        flex: 100%;
+        flex-direction: column;
+        max-width: 100%;
+        padding: 0 4px;
+        row-gap: 5px;
+        background-color: mediumaquamarine;
+    }
+    h1 {
+        display: inline-flexbox;
+        color: whitesmoke;
+        background-color: rgb(181, 174, 27);
+        text-align: center;
+        margin-bottom: 0;
+    }
+    h2 {
+        color: whitesmoke;
+    }
+    h4 {
+        display: flow-root;
+        text-align: center;
+    }
+    ul {
+        color: whitesmoke;
+        list-style-type: none;
+        display: -ms-grid;
+        background-color: mediumaquamarine;
+        margin-bottom: 10px;
+        margin-top: -15px;
+    }
+    .footer {
+        grid-area: footer;
+        background-color: rgb(181, 174, 27);
+        color: whitesmoke;
+    }
+}
+
+.SocialMediaLinks {
+    background-color: mediumpurple;
+    text-align: left;
+    color: whitesmoke;
+}
+
+.MyInfo {
+    background-color: mediumpurple;
+    text-size-adjust: AUTO;
+    color: whitesmoke;
+    margin-left: 10px;
+    padding-left: 12px;
+    text-align: center;
+}
+
+.socies {
+    display: flex;
+    text-align: end;
+    color: whitesmoke;
+}
+
+img1 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 25%;
+}
+
+img2 {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+img3 {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    height: 10%;
+}
+
+h2 {
+    color: mediumblue;
+}
