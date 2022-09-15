@@ -1,0 +1,153 @@
+@media screen and (max-width: 768px) and (min-width:413px) {
+    * {
+        box-sizing: border-box;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: minmax (min-content, 1024px) minmax(max-content, 1300PX);
+        grid-template-rows: max-content 450px 450px 450px 10px;
+        row-gap: 4px;
+        grid-template-areas: 'header header header header''features features features blogHomede''content content content blogHome''footer footer footer footer';
+    }
+    .blogHome {
+        grid-area: blogHome;
+        display: grid;
+        direction: column;
+        color: navy;
+        padding: 10px;
+        justify-content: flex-start;
+        margin-top: 4px;
+    }
+    .blogHomep {
+        display: grid;
+        direction: column;
+        color: navy;
+        background-color: mediumvioletred;
+        padding: 5px;
+        justify-content: flex-start;
+    }
+    .pix {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    .header {
+        grid-area: header;
+        row-gap: 25px;
+    }
+    .feature {
+        display: grid;
+        grid-area: features;
+        color: navy;
+        flex: 100%;
+        flex-direction: column;
+        max-width: 100%;
+        padding: 0 4px;
+        row-gap: 5px;
+        background-color: mediumaquamarine;
+    }
+    h1 {
+        display: inline-flexbox;
+        color: whitesmoke;
+        background-color: rgb(181, 174, 27);
+        text-align: center;
+        margin-bottom: 0;
+    }
+    h2 {
+        color: whitesmoke;
+    }
+    h4 {
+        display: flow-root;
+        text-align: center;
+    }
+    ul {
+        color: whitesmoke;
+        list-style-type: none;
+        background-color: mediumaquamarine;
+        margin: 0;
+        padding: 0;
+    }
+    .footer {
+        grid-area: footer;
+        background-color: rgb(181, 174, 27);
+        color: whitesmoke;
+    }
+    .SocialMediaLinks {
+        background-color: mediumpurple;
+        text-align: left;
+        color: whitesmoke;
+    }
+    .MyInfo {
+        background-color: mediumpurple;
+        text-size-adjust: AUTO;
+        color: whitesmoke;
+        margin-left: 10px;
+        padding-left: 12px;
+        text-align: center;
+    }
+    .socies {
+        display: flex;
+        text-align: end;
+        color: whitesmoke;
+    }
+    .footer {
+        display: flex;
+        text-align: end;
+        color: whitesmoke;
+    }
+    #img1 {
+        display: flex;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        border: solid white;
+    }
+    #img2 {
+        display: flex;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        border: solid white;
+    }
+    #img3 {
+        display: flex;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        border: solid white;
+    }
+    .img3 {
+        display: grid;
+        width: 75px;
+        height: 75px;
+        margin-right: 100px;
+        text-align: center;
+        padding: 10px;
+        border: solid white;
+    }
+    #img4 {
+        display: flex;
+        width: auto;
+        height: auto;
+        padding: 10px;
+        border: solid white;
+    }
+    h2 {
+        color: mediumblue;
+    }
+    title {
+        text-decoration: underline;
+        font-weight: bold;
+        font-style: italic;
+        color: azure;
+        font-size: larger;
+    }
+    title {
+        text-decoration: underline;
+        font-weight: bold;
+        font-style: italic;
+        color: azure;
+        font-size: larger;
+    }
+}

@@ -1,0 +1,159 @@
+         @media screen and (max-width: 412px) and (min-width:30PX) {
+             * {
+                 margin: auto;
+                 padding: 0;
+                 box-sizing: border-box;
+             }
+             ul {
+                 color: whitesmoke;
+                 list-style-type: none;
+                 padding: 0;
+                 margin-bottom: 1px;
+             }
+             .container {
+                 display: grid;
+                 row-gap: 2px;
+                 grid-template-columns: minmax (min-content, 30PX 4) minmax(max-content, 1023PX 4);
+                 grid-template-rows: 50px 150px 150px 50px;
+                 align-content: space-evenly;
+                 flex-direction: column-reverse;
+                 border: 2px;
+                 border-color: goldenrod;
+                 grid-template-areas: 'header header header header'' features features features blogHome'' content content content blogHome''footer footer footer footer';
+             }
+             .imgf {
+                 display: grid;
+                 flex-wrap: wrap;
+                 padding: 0 4px;
+             }
+             .header {
+                 grid-area: header;
+                 background-color: mediumvioletred;
+                 color: blanchedalmond;
+             }
+             .pix {
+                 display: flexbox;
+                 flex-direction: row-reverse;
+                 flex-wrap: wrap;
+                 padding: 0 4px;
+             }
+             .feature {
+                 grid-area: features;
+                 color: whitesmoke;
+                 background-color: aquamarine;
+                 display: flex;
+                 flex: 50%;
+                 direction: row;
+                 max-width: auto;
+                 padding: 0 4px;
+             }
+             .blogHome {
+                 grid-area: blogHome;
+                 display: grid;
+                 direction: column;
+                 color: navy;
+                 background-color: mediumvioletred;
+                 padding: 10px;
+                 justify-content: flex-start;
+             }
+             .blogHomeP {
+                 grid-area: blogHome;
+                 display: grid;
+                 direction: column;
+                 color: navy;
+                 background-color: mediumvioletred;
+                 padding: 10px;
+                 justify-content: flex-start;
+             }
+             .contentM {
+                 display: flex;
+                 flex-direction: row;
+                 flex-wrap: wrap;
+                 padding: 0 4px;
+             }
+             .content {
+                 grid-area: content;
+                 background-color: aquamarine;
+                 color: navy;
+             }
+             .MyInfo {
+                 background-color: mediumvioletred;
+                 text-size-adjust: AUTO;
+                 color: whitesmoke;
+                 margin-left: auto;
+                 padding-left: auto;
+                 text-align: center;
+             }
+             #img1 {
+                 display: flex;
+                 flex-direction: row-reverse;
+                 width: 100%;
+                 height: 100%;
+                 text-align: center;
+                 background-color: navy;
+                 padding: 10px;
+                 border: solid white;
+             }
+             #img2 {
+                 display: flex;
+                 flex-direction: row-reverse;
+                 width: 100%;
+                 height: 100%;
+                 text-align: center;
+                 background-color: navy;
+                 padding: 10px;
+                 border: solid white;
+             }
+             .img3 {
+                 display: grid;
+                 width: 105px;
+                 height: 105px;
+                 margin-right: 50px;
+                 margin-top: 5px;
+                 text-align: center;
+                 padding: 1px;
+                 border: solid white;
+             }
+             #img3 {
+                 display: flex;
+                 flex-direction: row-reverse;
+                 width: 100%;
+                 height: 100%;
+                 text-align: center;
+                 background-color: navy;
+                 padding: 10px;
+                 border: solid white;
+             }
+             #img4 {
+                 display: flex;
+                 flex-direction: row-reverse;
+                 width: 100%;
+                 height: 100%;
+                 background-color: navy;
+                 text-align: center;
+                 padding: 10px;
+                 border: solid white;
+             }
+             h2 {
+                 color: mediumblue;
+             }
+             .footer {
+                 grid-area: footer;
+                 background-color: mediumvioletred;
+                 color: blanchedalmond;
+             }
+             title {
+                 text-decoration: underline;
+                 font-weight: bold;
+                 font-style: italic;
+                 color: azure;
+                 font-size: larger;
+             }
+             title {
+                 text-decoration: underline;
+                 font-weight: bold;
+                 font-style: italic;
+                 color: azure;
+                 font-size: larger;
+             }
+         }
